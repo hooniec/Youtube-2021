@@ -2,10 +2,26 @@
   "name": "wetube",
   "version": "1.0.0",
   "description": "Making video upload website with VanillaJS and NodeJS",
-  "main": "index.js",
   "author": "Sunghoon Cho",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoony1220/Youtube-2021.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hoony1220/Youtube-2021/issues"
+  },
+  "homepage": "https://github.com/hoony1220/Youtube-2021#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.7",
+    "nodemon": "^2.0.7"
   }
 }
